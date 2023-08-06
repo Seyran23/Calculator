@@ -60,4 +60,31 @@ body {
 }
 .buttons_container .operations_btn {
   color: rgba(56, 253, 253, 0.908);
+}
+
+@media (max-width: 400px) {
+  .calculator_container {
+    padding: 15px;
+    max-width: 300px;
+  }
+  .calculator_container input {
+    font-size: 2rem;
+  }
+  .buttons_container .button {
+    padding: 10px 5px;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 325px) {
+  .calculator_container {
+    padding: 15px;
+    max-width: 300px;
+  }
+  .calculator_container input {
+    font-size: 2rem;
+  }
+  .buttons_container .button {
+    padding: 10px 5px;
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
